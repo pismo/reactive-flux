@@ -1,0 +1,15 @@
+{
+  "name": "reactive-flux",
+  "description": "",
+  "main": "dist/packages/browser/main.js",
+  "authors": [
+    "enzo <enzo.toshiba@gmail.com>",
+    "Daniel <daniel.paulino@pismo.com.br>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/pismo/reactive-flux",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "rx-angular": "^1.1.3"
+  }
+}
