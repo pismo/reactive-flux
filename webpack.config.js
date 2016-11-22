@@ -20,5 +20,8 @@ module.exports = {
     externals: {
         angular: 'angular',
         'rx-angular': 'rx-angular'
-    }
+    },
+    plugins:[
+        new webpack.optimize.UglifyJsPlugin({ mangle: false })
+    ]
 };
